@@ -71,18 +71,18 @@ oco_minusculas(texto)
 
 
 
-#- Contagem do número de frases 
-
-
-def frases(texto):
-    n_frases = re.findall(r'[.!?]', texto)
-    return len(n_frases)
-
-numero_frases = frases(texto)
-print(numero_frases)
-
 # - Qual o comprimento médio da frase em palavras (nº de frases a dividir por nº de palavras)
 
-comp = 59336 / 4102
 
-print(f'Qual é o comprimento médio das frases em palavras?: {comp}')
+def comprimentoMedio(texto):
+    palavras = re.findall (r'\w', texto)
+    pontuacao = re.findall(r'\.\.\.|[!?]+|[\.]', texto)
+    total = sum(contador.values())
+    if total > 0:
+        compMedio = len(palavras) / total
+    else:
+        compMedio = 0
+    print('O comprimento médio das frases em palavras é: ' + str(compMedio))
+    print(len(pontuacao))
+
+
