@@ -1,5 +1,6 @@
 # - Calcular capítulos (calcular ocorrencias de # e contar quantos)
 import re 
+from collections import Counter
 livro = 'Camilo-A_Brasileira_de_Prazins.md'
 texto = open(livro, 'r', encoding='UTF-8').read()
 
@@ -66,7 +67,7 @@ def oco_minusculas(texto):
         with open('ocoMinusculas.txt', 'w', encoding='UTF=8') as output_file:
             for palavra, ocorrencias in ocoAlfabeto:
                 output_file.write(f'{palavra}:{ocorrencias}\n')
-oco_minusculas(texto)
+#oco_minusculas(texto)
 
 
 
@@ -75,14 +76,16 @@ oco_minusculas(texto)
 
 
 def comprimentoMedio(texto):
-    palavras = re.findall (r'\w', texto)
+    palavras = re.findall (r'\w+', texto)
     pontuacao = re.findall(r'\.\.\.|[!?]+|[\.]', texto)
+    contador = Counter(pontuacao)
     total = sum(contador.values())
     if total > 0:
         compMedio = len(palavras) / total
     else:
         compMedio = 0
-    print('O comprimento médio das frases em palavras é: ' + str(compMedio))
+    print('O comprimento médio das frases em palavras é: ', compMedio)
     print(len(pontuacao))
+comprimentoMedio(texto)
 
 
