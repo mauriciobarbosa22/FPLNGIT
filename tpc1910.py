@@ -21,6 +21,23 @@ linha = extrair_linhas(texto)
 with open('capitulos.txt','w', encoding='UTF=8') as f:
     for capitulos in linha:
         print(capitulos, file = f)
+
+
+# agora para um ficheiro em html
+
+def extrair_linhas(texto):
+    titulos = re.findall(r'#.+', texto) #'.+' o ponto  significa quakquer caracter exceto a quebra de linha; '+' significa 1 ou + ocorrências
+    with open('capitulos.html','w', encoding='UTF=8') as f:
+        print('<ol>', file = f)
+        for tit in titulos:
+            print('<li>', tit, '</li>', file = f)
+        print('</ol>', file = f)
+
+'''
+<ol>
+<li>titulo</li>
+</ol>
+'''
 # - Ocorrências com palavras todas em minusculas
 
 palavras = texto.split()    
