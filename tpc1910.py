@@ -27,12 +27,16 @@ with open('capitulos.txt','w', encoding='UTF=8') as f:
 
 def extrair_linhas(texto):
     titulos = re.findall(r'#.+', texto) #'.+' o ponto  significa quakquer caracter exceto a quebra de linha; '+' significa 1 ou + ocorrências
+    lista_titulos = '\n'.join(titulos)
     with open('capitulos.html','w', encoding='UTF=8') as f:
+        print('<h1> A Brasileira de Prazins </h1>', file = f)
         print('<ol>', file = f)
         for tit in titulos:
-            print('<li>', tit, '</li>', file = f)
+            #print('<li>', tit, '</li>', file = f)
+            print(f'<li> {tit} </li>', file = f)
         print('</ol>', file = f)
 
+extrair_linhas(texto)
 '''
 <ol>
 <li>titulo</li>
@@ -44,6 +48,28 @@ palavras = texto.split()
 x = len(palavras)
 
 print(f'Número de palavras: {x}')
+
+def oco_minusculas(texto):
+    palavras = re.findall(r'\w+', texto)
+    minusculas = []
+    oco = {}
+    for palavra in palavras:
+        palavra_minuscula = palavra.lower()
+        minusculas.append(palavra_minuscula)
+        if palavra in oco:
+            oco[palavra_minuscula] += 1
+        else:
+            oco [palavra_minuscula] = 1
+            
+            #ocoAlfabeto = sorted(oco.items(), key=lambda item: item[1])
+            ocoAlfabeto = sorted(oco.items(), key=lambda item: item[1])
+        with open('ocoMinusculas.txt', 'w', encoding='UTF=8') as output_file:
+            for palavra, ocorrencias in ocoAlfabeto:
+                output_file.write(f'{palavra}:{ocorrencias}\n')
+oco_minusculas(texto)
+
+
+
 
 #- Contagem do número de frases 
 
