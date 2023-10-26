@@ -3875,7 +3875,7 @@ apanhasse a língua entre os dentes; que lhe metessem um pano entre os dois quei
 
 – Ele disse que o melhor era casar-se – lembrou o Feliciano ao padre Osório.
 
-#                                                        XVI
+# XVI
 
 Relatava o vigário de Caldelas?
 
@@ -4120,7 +4120,7 @@ morte do pedreiro, lhe disse?
 
 – Enfim, você ganha a casa, compadre, porque mátava Zéférino, se os outros não matam ele, hem?
 
-#  XVII
+# XVII
 
  Celebrou-se o casamento na capela da quinta da Retorta. Foi o vigário de Caldelas o ministro do
 sacramento. D. Teresa madrinha, e o padrinho veio do Porto, o barão do Rabaçal, um gordo, casado com as brancas
@@ -4268,7 +4268,7 @@ como podia ter a espinha vertebral raquítica. Como se faz a perda da vista? Pel
 perda da vista normal da alma é também a paralisia de uma porção de massa encefálica. Bem sei que isto embaraça
 um pouco os senhores teólogosmetafísicos, mas lá se avenham: a verdade é esta.
 
-#                                                       XVIII
+# XVIII
 
  Chegaram por este tempo, vindos das terras de Basto a Requião, os tão almejados missionários,
 interrompidos no seu estéril apostolado pela revolução de Maria da Fonte. Marta ouviu a notícia com alvoroço, e
@@ -4451,7 +4451,7 @@ azul, com a sua lividez marmórea e os anéis dos cabelos louros esparsos como n
 aquele namoro no Céu quando abria a página do livro com que o confessor lhe dissera que havia de exorcizar as
 tentações voluptuosas da sua alma e do seu corpo.
 
-#                                                         XIX
+# XIX
 
  Frei João não se entendia já com a sua confessada. Deviam ser grandemente disparatadas as revelações de
 Marta para que o varatojano desconfiasse que ela estava obsessa e que as suas visões deviam ser malfeitorias de
@@ -4651,7 +4651,7 @@ curava pelo Raspail, e que levasse o Diabo o frade e mais a caiporice dos exorci
 Que sim, que comprasse o Manual do Raspail – concordou o padre Osório, e saiu muito cansado – dizia ele
 à irmã – de lidar com as duas cavalgaduras.
 
-#                                                         XX
+# XX
 
  Marta estava no quarto, onde tinha o seu oratório de pau-preto com frisos dourados, e dentro uma antiga
 escultura em marfim de um Cristo dignamente representado na sua agonia humana. De cada lado da cruz ardia uma
