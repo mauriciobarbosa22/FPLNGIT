@@ -3,18 +3,21 @@ import re
 # - lista de frases ( uma frase em cada linha)
 # -
 
-#abreviaturas
-#linha em branco
-#open ficheiro 
+#EXERCICIO 1 abreviaturas
+#EXERCICIO 2 linha em branco
+#EXERCICIO 3 open ficheiro 
+#EXERCICIO 4 encontrar todos os numeros
+
+#EXERCICIO 1
 
 texto2 = '''Esta linda frase. Foi interrompida bruscamente por D. Sesbatiao! Paciência,
 Acham bem??? Fim'''
 
 def fase1(texto):
-    fimfrase = r'(\.\.\.|[!?]+|[.])' #() capturam partes
+    fimfrase = r'(\.\.\.|[!?]+|[.]|D.+|S.+|P.+|S.+|V.+)' #() capturam partes
     novotexto = re.sub(fimfrase, r'\1||\n', texto)  #\1 remete para a captura 1
     return novotexto
-
+    
 #fase1(texto2)
 
 
@@ -30,10 +33,11 @@ def fase2(texto):
 
 def fase3(lf):
     numero = 0
-    for frase in lf:
-        frase = re.sub(r'\n', r' ', frase)
-        numero += 1
-        print(numero, frase)
+    with open('frases.txt', 'w', encoding='UTF=8') as f:
+        for frase in lf:
+            frase = re.sub(r'\n', r' ', frase)
+            numero += 1
+            print(numero, frase, file = f)
 
 #fase3(lf)
 
@@ -43,4 +47,12 @@ texto = open(livro, 'r', encoding='UTF-8').read()
 f1 = fase1(texto)
 lf = fase2(f1)
 f3 = fase3(lf)
+
+padrao = r'\b\d{4}\b'
+anos = re.findall(padrao, texto)
+
+for ano in anos:
+    print(ano)
+
+
 
