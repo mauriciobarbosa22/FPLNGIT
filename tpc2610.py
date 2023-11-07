@@ -48,7 +48,7 @@ f1 = fase1(texto)
 lf = fase2(f1)
 f3 = fase3(lf)
 
-padrao = r'\b\d{4}\b'
+padrao = r'\b\d{4}\b'   # \b certifica-se de que o padrão é um palavra completa e define uma barreira \d é uma classe que transporta para qualquer dígito de 0-9
 anos = re.findall(padrao, texto)
 
 for ano in anos:
