@@ -14,7 +14,7 @@ texto2 = '''Esta linda frase. Foi interrompida bruscamente por D. Sesbatiao! Pac
 Acham bem??? Fim'''
 
 def fase1(texto):
-    fimfrase = r'(\.\.\.|[!?]+|[.]|D.+|S.+|P.+|S.+|V.+)' #() capturam partes
+    fimfrase = r'(\.\.\.|[!?]+|[.]|D.+|Sr.+|P.+|S.+|V.+)' #() capturam partes
     novotexto = re.sub(fimfrase, r'\1||\n', texto)  #\1 remete para a captura 1
     return novotexto
     
@@ -48,7 +48,7 @@ f1 = fase1(texto)
 lf = fase2(f1)
 f3 = fase3(lf)
 
-padrao = r'\b\d{4}\b'   # \b certifica-se de que o padrão é um palavra completa e define uma barreira \d é uma classe que transporta para qualquer dígito de 0-9
+padrao = r'\b\1\d{3}\b'   # \b certifica-se de que o padrão é um palavra completa e define uma barreira \d é uma classe que transporta para qualquer dígito de 0-9
 anos = re.findall(padrao, texto)
 
 for ano in anos:
