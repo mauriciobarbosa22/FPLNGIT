@@ -27,7 +27,7 @@ with open('capitulos.txt','w', encoding='UTF=8') as f:
 # agora para um ficheiro em html
 
 def extrair_linhas(texto):
-    titulos = re.findall(r'#.+', texto) #'.+' o ponto  significa quakquer caracter exceto a quebra de linha; '+' significa 1 ou + ocorrências
+    titulos = re.findall(r'#.+', texto) #'.+' o ponto  significa qualquer caracter exceto a quebra de linha; '+' significa 1 ou + ocorrências
     lista_titulos = '\n'.join(titulos)
     with open('capitulos.html','w', encoding='UTF=8') as f:
         print('<h1> A Brasileira de Prazins </h1>', file = f)
