@@ -344,9 +344,7 @@ Então
 Pernambuco
 Cabrais
 Natal
-Auto
-Nascimento
-Menino
+Auto do Nascimento do Menino
 Santa Bárbara
 Feliciano
 Você
@@ -376,8 +374,7 @@ Você
 Não
 Eu
 Faz
-António
-Eido
+António do Eido
 Lembra
 Se
 Guarde
@@ -481,6 +478,7 @@ Lisboa
 Chambord
 Modena
 Fernando
+Áustria
 Minho
 Chegando
 Miguel
@@ -580,8 +578,7 @@ Porto
 Nas
 Os
 Este
-Junta Suprema
-Podo
+Junta Suprema do Podo
 Vieira
 Casimiro
 General Defensor
@@ -863,7 +860,7 @@ Lamelas
 Vasco
 Cerveira Leite
 Quadros
-Monte
+Évora Monte
 Vermoim
 Como
 Imbecilizara
@@ -982,8 +979,7 @@ Schiller
 Arlincourt
 Fazia
 Também
-Gazeta Literária
-Porto
+Gazeta Literária do Porto
 Toledo
 Fuas
 Honorata
@@ -1138,11 +1134,9 @@ Quanto
 Não
 Admitia
 Além
-Vila
-Conde
+Vila do Conde
 Esmoriz
-São Cosme
-Vale
+São Cosme do Vale
 Conhecia
 Ponte Ferreira
 Mandava
@@ -1165,15 +1159,14 @@ Lanhoso
 As
 Não
 Desde
-Monte
+Évora Monte
 Guimarães
 Inverno
 Verão
 Por
 Mandou
 Braga
-Cambraia da Rua
-Souto
+Cambraia da Rua do Souto
 Entretanto
 Zeferino
 Barrimau
@@ -1348,8 +1341,7 @@ Arlincourt
 Sr
 Miguel
 Roma
-Casa
-Infantado
+Casa do Infantado
 Por
 As
 Sua Majestade
@@ -1666,8 +1658,7 @@ Ceava
 Zeferino
 Santa Marta de Bouro
 Havia
-Bom Jesus
-Monte
+Bom Jesus do Monte
 Partiu
 Braga
 Quadros
@@ -1929,6 +1920,7 @@ Srª Infanta
 Isabel Maria
 Dr
 Cândido Rodrigues
+Álvares de
 Figueiredo
 Lima
 Coimbra
@@ -2128,11 +2120,9 @@ Os
 Castro Laboreiro
 Porcos
 Mãe Santíssima
-Jacinta
-Reimundles
+Jacinta do Reimundles
 Dois
-Bom Jesus
-Monte
+Bom Jesus do Monte
 São Trocatles
 Entretanto
 Havia
@@ -2202,8 +2192,7 @@ Mas
 Real Senhor
 Parece
 Com
-Remexido
-Algarve
+Remexido do Algarve
 Desça
 Está
 Este
@@ -2327,7 +2316,7 @@ Monte Alverne
 Cerveira Lobo
 Abriram
 Vasconcelos
-Tanque
+do Tanque
 Magalhães
 Freire Barata
 Cunha
@@ -2391,14 +2380,13 @@ Honrado
 Ainda
 Veríssimo
 Braga
-Relação
+Relação do
 Porto
 Governo Civil
 Veríssimo Borges Camelo da
 Mesquita5
 Tinha
-Alvações
-Corgo
+Alvações do Corgo
 Douro
 Ao
 Norberto
@@ -2420,7 +2408,7 @@ Que
 Vila Real
 Trás
 Montes
-Monte
+Évora Monte
 Que
 Porto
 Que
@@ -2495,16 +2483,17 @@ Diziam
 Miguel
 Depois
 Veríssimo Borges
-Alvações
-Corgo
+Alvações do Corgo
 Privado
 Lopo Rodrigues
+Águeda
 Antas
 Lamego
 Veríssimo
 Lamego
 Norberto
 Camelo
+Águeda
 Desde
 Sr
 Miguel
@@ -2517,6 +2506,7 @@ Te
 Deum de
 Alvações
 Porto
+Águeda
 Deus de Afonso Henriques
 Restava
 Veríssimo
@@ -2529,6 +2519,7 @@ Lobrigos
 Outros
 Veríssimo
 Os
+Águeda
 Camelos
 Lobrigos
 Bragança
@@ -2550,6 +2541,7 @@ Acaso
 Torcato Munes
 Eram
 Veríssimo
+Águeda
 Em
 Algarve
 José Joaquim de Sousa Reis
@@ -2561,6 +2553,7 @@ Veríssimo
 Os
 Algarve
 Veríssimo Borges
+Águeda
 Que
 Sousa Reis
 Sr
@@ -2623,6 +2616,7 @@ Nunes
 São Gens
 Norberto
 Lobrigos
+Águeda
 Nunes
 Póvoa
 Que
@@ -2635,6 +2629,7 @@ Vila Real
 Sr
 Miguel
 No Inverno
+Águeda
 Deixou
 Sr
 Miguel
@@ -2642,8 +2637,7 @@ Santa Clara de Vila Real
 Sua Majestade
 Veríssimo
 Fez
-Alvações
-Corgo
+Alvações do Corgo
 Veríssimo
 Deitou
 Feira de Santo António
@@ -2726,7 +2720,7 @@ Caçoila
 Cearam
 Braga
 Catrâmbias
-Rua
+Rua do
 Alcaide
 Libânia de Covas
 Diabo
@@ -2825,7 +2819,7 @@ Porto
 José António
 Bom Jardim
 Luís
-Torrão
+do Torrão
 Pois
 Luís
 de Sousa
@@ -3166,8 +3160,7 @@ Tu
 Veríssimo
 Nunes
 Ao
-Governo Civil
-Porto
+Governo Civil do Porto
 Relação
 Quando
 Governo Civil
@@ -3184,10 +3177,8 @@ Douro
 Gravito
 Libânia
 Torcato
-Estalagem
-Cantinho
-Rua
-Loureiro
+Estalagem do Cantinho
+Rua do Loureiro
 Relação
 Ao
 Munes
@@ -3203,8 +3194,7 @@ Albano
 Quando
 Informou
 Norberto Horges
-Alvações
-Corgo
+Alvações do Corgo
 Estava
 Calvos
 Que
@@ -3352,8 +3342,7 @@ Estremadura
 Veríssimo Borges
 Trás
 Montes
-Viana
-Minho
+Viana do Minho
 Ultramar
 Ainda
 Veríssimo Borges Camelo da Mesquita
@@ -3452,8 +3441,7 @@ Prazins
 Zeferino
 Simeão
 Que
-Genoveva
-Simeão
+Genoveva do Simeão
 Purgatório
 Diabo
 Estava
@@ -3592,6 +3580,7 @@ Porto
 Ordem
 Miguel da Ala
 João de Albuquerque
+Ínsua
 Norte
 Grão
 Mestrado
@@ -4059,8 +4048,7 @@ Zeferino
 Trás
 Montes
 Vinhais
-Junta
-Porto
+Junta do Porto
 Eu
 Que
 Quadros
@@ -4106,6 +4094,7 @@ Cávado
 Santiago de Antas de
 Ruivães
 Cana
+Água
 Num
 Roque
 Senhora da Burrinha
@@ -4486,8 +4475,7 @@ Era
 Zeferino
 Quando
 Alma Negra
-Bom Jesus
-Monte
+Bom Jesus do Monte
 Ao
 Melro
 Zeferino
@@ -4657,10 +4645,8 @@ Lacordaire
 Osório
 Deus
 Cosme de Tagilde
-Escala
-Céu
-Escarpas
-Gólgota
+Escala do Céu
+Escarpas do Gólgota
 Via Seráfica
 Reino
 Querubins
@@ -4734,8 +4720,7 @@ Missão Aumentada
 Missão Abreviada
 Piedosas
 Meditações
-Horas
-Cristão
+Horas do Cristão
 Mês de Maria
 Mês de Jesus
 Livro de Santa Bárbara
@@ -4763,8 +4748,7 @@ De Santo Agostinho
 Anjo da Guarda
 Rezas
 Na
-Coração de Maria
-Coração de Jesus
+Coração de Maria do Coração de Jesus
 Anjo da Guarda
 Santa Teresa
 As
@@ -4848,8 +4832,7 @@ Sulamita
 Eles
 Teresa de Jesus
 Maria Alacoque
-Maria
-Céu
+Maria do Céu
 Vilar de Frades
 Desta
 Manuais
@@ -4918,6 +4901,7 @@ Demónio
 Deus
 Diabo
 Deus
+África
 Quem
 Diabo
 Distinguo
@@ -5102,14 +5086,12 @@ Cerveira de Quadros
 Porto
 Ermida
 Que
-Manual
-Raspail
+Manual do Raspail
 Pernambuco
 Raspail
 Diabo
 Que
-Manual
-Raspail
+Manual do Raspail
 Osório
 XX
 Marta
@@ -5239,8 +5221,7 @@ Depois
 Podem
 Os
 Carlos Baucio
-Arte
-Exorcista
+Arte do Exorcista
 Mulieres
 Marta
 José
