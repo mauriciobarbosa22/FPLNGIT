@@ -38,6 +38,3 @@ most_common_names = name_counts.most_common(20)
 
 # Print the 20 most common names
 print(most_common_names)
-
-
-
