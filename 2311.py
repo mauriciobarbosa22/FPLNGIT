@@ -14,6 +14,7 @@
 		#{ "name":"ana", "profissão": "pedreiro", "idade": 14 },
 		#{ "name":"isa", "profissão": "astronauta", "idade": 44 }
 #]
+
 import json, sys, re
 with open('ex1.json', encoding='UTF-8') as f:
     contents = json.load(f)
