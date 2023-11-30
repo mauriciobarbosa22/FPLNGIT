@@ -1,4 +1,5 @@
 import re
+from collections import Counter
 
 texto = open('folha8.OUT.txt', 'r',encoding='utf-8').read()
 
@@ -52,6 +53,3 @@ with open('gamas_de_datas.txt', 'w', encoding='utf-8') as f:
 
 
 #Saber quais são as palavras mais utilizadas, pode permitir saber qual é o tema mais comum (?)
-
-
-
