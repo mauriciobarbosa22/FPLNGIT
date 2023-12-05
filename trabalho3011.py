@@ -2,8 +2,7 @@ import re
 from collections import Counter
 
 texto = open('folha8.OUT.txt', 'r',encoding='utf-8').read()
-
-
+#texto = texto.replace('\n', '')    # para que as gama de datas dd de mm (de aaaa) nao ficassem separadas
 #Calcular quantas publicações
 
 def publis(texto):
@@ -37,19 +36,56 @@ with open('lista_de_pubs.txt', 'w', encoding='utf-8') as f:
 #fazer uma expressao regular que me encontre as mais variadas gamas de datas (tenho que especificar todas), posso, ou nao, retirar as linhas do #DATE
 
 
-def datas(texto):
-    paragrafos = texto.split('\n')
-    padrao = (r'\b\d{1,2}/\b\d{1,2}/\b\d{2,4}\b|\b\d{1,2}\b\s\bde\b\s\b\w*\b\s\bde\b\sd{2,4}|\b\d{1,2}-\b\d{1,2}-\b\d{2,4}\b|\b\d{1,2}/b/\b\d{1,2}/\b\d{1,2}|\b\d{1,2}\b\s\bde\b\s\w*\s(?:\bde\b\s\d{2,4}\b)?')
-    datas_encontradas = re.findall(padrao, texto)
-    return datas_encontradas
+def datas_numeros(texto):
+    texto_sem_quebras = texto.replace('\n', '')
+    padrao = (r'\b\d{1,2}/\b\d{1,2}/\b\d{2,4}\b|\b\d{1,2}-\b\d{1,2}-\b\d{2,4}\b|\b\d{1,2}/b/\b\d{1,2}/\b\d{1,2}')
+    datas_numeros = re.findall(padrao, texto_sem_quebras)
+    oco = {}
+    for data in datas_numeros:
+        if data in oco:
+              oco[data] += 1
+        else:
+            oco [data] = 1
+    return oco
 
-lista_datas = datas(texto)
+def datas_extenso(texto):
+    texto_sem_quebras = texto.replace('\n', '')
+    padrao_dois = (r'\b\d{1,2}\b\s\bde\b\s\b\w*\b\s\bde\b\sd{2,4}|\b\d{1,2}\b\s\bde\b\s\w*\s(?:\bde\b\s\d{2,4}\b)?')
+    datas_por_extenso = re.findall(padrao_dois, texto_sem_quebras)
+    oco = {}
+    for data in datas_por_extenso:
+        if data in oco:
+              oco[data] += 1
+        else:
+            oco [data] = 1
+    return oco
 
-with open('gamas_de_datas.txt', 'w', encoding='utf-8') as f:
-     for data in lista_datas:
-        f.write(f'{data}\n')
+contagem_numeros = datas_numeros(texto)
+contagem_extenso = datas_extenso(texto)
 
+with open('gama_de_datas.txt', 'a', encoding='utf-8') as f:
+    for data_extenso, ocorrencias_extenso in contagem_extenso.items():
+        f.write(f'Datas por extenso: {data_extenso}: {ocorrencias_extenso} ocorrências\n')
 
+with open('gama_de_datas.txt', 'a', encoding='utf-8') as f:
+    for data_numeros, ocorrencias_numeros in contagem_numeros.items():
+        f.write(f'Datas com barra ou travessão: {data_numeros}: {ocorrencias_numeros} ocorrências\n')
 
 
 #Saber quais são as palavras mais utilizadas, pode permitir saber qual é o tema mais comum (?)
+
+def contar_palavras_sem_stopwords(texto, stopwords):
+    palavras = texto.lower().split()
+    contagem = {}
+    for palavra in palavras:
+        if palavra not in stopwords:
+            contagem[palavra] = contagem.get(palavra, 0) + 1
+    return contagem
+
+stopwords_exemplo = {"é", 'a', 'o', 'que', 'e', 'do', "um", "de", "este", "como", 'da', 'em', 'para', 'os', 'dos', 'com', 'no', 'não', 'na', 'uma', 'por', 'as', 'se', 'ao', 'à', 'das', 'mais', 'ser', 'ou', 'foi', '–', 'pelo', 'mas', 'sua', 'pela', 'são', 'nos', 'tem', 'está', 'também', 'seu', 'entre', 'aos', 'ainda', 'sobre', 'já'}
+
+contagem_palavras = contar_palavras_sem_stopwords(texto, stopwords_exemplo)
+
+palavras_comuns = sorted(contagem_palavras.items(), key=lambda x: x[1], reverse=True)[:5]
+
+print(palavras_comuns)
