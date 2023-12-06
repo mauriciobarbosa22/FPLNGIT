@@ -2,12 +2,12 @@ import re
 from collections import Counter
 
 texto = open('folha8.OUT.txt', 'r',encoding='utf-8').read()
-#texto = texto.replace('\n', '')    # para que as gama de datas dd de mm (de aaaa) nao ficassem separadas
+
 #Calcular quantas publicações
 
 def publis(texto):
     dates = texto.count('#DATE')
-    print(dates)
+    print(f'O número de publicações na Folha 8 são: {dates}')
 
 publis(texto)
 
@@ -32,8 +32,6 @@ with open('lista_de_pubs.txt', 'w', encoding='utf-8') as f:
 
 
 #Que gama de datas estão incluídas no ficheiro
-
-#fazer uma expressao regular que me encontre as mais variadas gamas de datas (tenho que especificar todas), posso, ou nao, retirar as linhas do #DATE
 
 
 def datas_numeros(texto):
@@ -72,7 +70,7 @@ with open('gama_de_datas.txt', 'a', encoding='utf-8') as f:
         f.write(f'Datas com barra ou travessão: {data_numeros}: {ocorrencias_numeros} ocorrências\n')
 
 
-#Saber quais são as palavras mais utilizadas, pode permitir saber qual é o tema mais comum (?)
+#EXERCÍCIO LIVRE - Saber quais são as palavras mais utilizadas, de forma a permitir saber qual é o tema mais comum ao longo da Folha
 
 def contar_palavras_sem_stopwords(texto, stopwords):
     palavras = texto.lower().split()
@@ -88,4 +86,4 @@ contagem_palavras = contar_palavras_sem_stopwords(texto, stopwords_exemplo)
 
 palavras_comuns = sorted(contagem_palavras.items(), key=lambda x: x[1], reverse=True)[:5]
 
-print(palavras_comuns)
+print(f'As palavas mais comuns na Folha 8, excluindo stopwords, são: {palavras_comuns}')
