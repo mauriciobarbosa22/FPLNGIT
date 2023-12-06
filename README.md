@@ -12,3 +12,6 @@
 #TPC 26/10
 - completar os problemas aula 2610
 - dividir o texto por capítulos e procurar os anos presentes em cada capítulo (sequência de quatro números)
+
+#TRABALHO FOLHA 8
+- O trabalho encontra-se no ficheiro python 'trabalho3011'
