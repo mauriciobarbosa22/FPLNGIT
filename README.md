@@ -15,3 +15,8 @@
 
 # TRABALHO FOLHA 8
 - O trabalho encontra-se no ficheiro python 'trabalho3011'
+
+# TPC 07/12
+- modulos interessantes: bs4; lxml; requests(vai buscar páginas longínquas); matplotlib; xlsx
+- tratar um modulo, arranjar um exemplo minimo, e fazer um exercicio
+- fazer uma pequena apresentação de 3 slides
