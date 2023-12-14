@@ -17,6 +17,12 @@
 - O trabalho encontra-se no ficheiro python 'trabalho3011'
 
 # TPC 07/12
+# Micro apresentação
 - modulos interessantes: bs4; lxml; requests(vai buscar páginas longínquas); matplotlib; xlsx
 - tratar um modulo, arranjar um exemplo minimo, e fazer um exercicio
-- fazer uma pequena apresentação de 3 slides
+- apresentaçao do modulo em 3 slides, mais o resto
+- + pequeno projeto sobre o modulo
+
+
+ # TPC 14/12
+ - transformar 
