@@ -24,5 +24,5 @@
 - + pequeno projeto sobre o modulo
 
 
- # TPC 14/12
- - transformar 
+ # TPC 04/01
+ - fazer qualquer coisa em beautifulsoup (está no readme do github do professor)
