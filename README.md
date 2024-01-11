@@ -9,20 +9,20 @@
 - Qual o comprimento médio da frase em palavras (nº de frases a dividir por nº de palavras)
 - livre
 
-# TPC 26/10
+## TPC 26/10
 - completar os problemas aula 2610
 - dividir o texto por capítulos e procurar os anos presentes em cada capítulo (sequência de quatro números)
 
-# TRABALHO FOLHA 8
+## TRABALHO FOLHA 8
 - O trabalho encontra-se no ficheiro python 'trabalho3011'
 
-# TPC 07/12
-# Micro apresentação
+## TPC 07/12
+## Micro apresentação
 - modulos interessantes: bs4; lxml; requests(vai buscar páginas longínquas); matplotlib; xlsx
 - tratar um modulo, arranjar um exemplo minimo, e fazer um exercicio
 - apresentaçao do modulo em 3 slides, mais o resto
 - + pequeno projeto sobre o modulo
 
 
- # TPC 04/01
+ ## TPC 04/01
  - fazer qualquer coisa em beautifulsoup (está no readme do github do professor)
